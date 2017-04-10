@@ -16,6 +16,6 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.42;
 }
 
-h1, h2, h3, h4, h5, h6 .Typo {
+h1.typo, h2.typo, h3.typo, h4.typo, h5.typo, h6.Typo {
   font-family: 'Muli', sans-serif;
 }
