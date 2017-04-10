@@ -14,6 +14,8 @@ html, body {
   color: rgba(0,0,0 ,1);
 }
 
+/* Knoppen */
+
 .button {
     border-radius: 0;
     border-style: solid;
@@ -48,4 +50,18 @@ html, body {
 .button--secondary:hover {
     background-color: #7f8084;
     color: #FFF;
+}
+
+/* Kleuren */
+.colours__colour--a {
+    background-color: #ced2d3;
+}
+.colours__colour--b {
+    background-color: #16243e;
+}
+.colours__colour--c {
+    background-color: #61c19c;
+}
+.colours__colour--d {
+    background-color: #7f8084;
 }
