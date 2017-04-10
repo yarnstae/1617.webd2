@@ -17,3 +17,38 @@ body {
   margin-top: 1rem;
   color: rgba(0,0,0 ,1);
 }
+
+.button {
+    border-radius: 0;
+    border-style: solid;
+    border-width: 0 0;
+    display: inline-block;
+    font-weight: bold;
+    padding: .25em .5em;
+    text-decoration: none;
+}
+.button:hover {
+    text-decoration: none;
+}
+
+.button--primary,
+.button--primary:active,
+.button--primary:visited {
+    border: 3px solid #15243d;
+    color: #15243d;
+}
+.button--primary:hover {
+    background-color: #61c19c;
+    color: #FFF;
+}
+
+.button--secondary,
+.button--secondary:active,
+.button--secondary:visited {
+    background-color: #15243d;
+    color: #FFF;
+}
+.button--secondary:hover {
+    background-color: #7f8084;
+    color: #FFF;
+}
