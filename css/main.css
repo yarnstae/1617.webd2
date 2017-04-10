@@ -53,6 +53,28 @@ html, body {
 }
 
 /* Kleuren */
+
+.clearfix::before,
+.clearfix::after {
+    content: " ";
+    display: table;
+}
+.clearfix::after {
+    clear: both;
+}
+
+.colours__colour {
+    background-color: #EEE;
+    border: .25rem solid #FFF;
+    box-shadow: 0 0 1px #000;
+    float: left;
+    height: 3.5rem;
+    width: 3.5rem;
+}
+.colours__colour + .colours__colour {
+    margin-left: 1rem;
+}
+
 .colours__colour--a {
     background-color: #ced2d3;
 }
