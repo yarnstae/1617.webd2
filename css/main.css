@@ -199,7 +199,8 @@ p.circle_margin {
 /* Links */
 
 #wrapper_nav {
-  height: 5.52vw;
+  height: 4.52vw;
+  padding: 1vw 0 1vw 0;
   width: 100%;
   background: #61c19c;
   background: -webkit-linear-gradient(left, #16243e, #61c19c);
@@ -279,7 +280,7 @@ iframe.contact_map {
 
 .team {
   width: 74%;
-  height: 21.7vw;
+  min-height: 21.7vh;
   border: 3px solid #61c19c;
   background-color: #FFF;
   margin: 0 0 0 13%;
@@ -315,6 +316,7 @@ p.functie {
   text-align: center;
   color: #61c19c;
   margin: 6% 6% 0 6%;
+  padding-bottom: 3%;
 }
 
 
