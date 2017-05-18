@@ -199,8 +199,7 @@ p.circle_margin {
 /* Links */
 
 #wrapper_nav {
-  height: 4.52vw;
-  padding: 1vw 0 1vw 0;
+  overflow: auto;
   width: 100%;
   background: #61c19c;
   background: -webkit-linear-gradient(left, #16243e, #61c19c);
@@ -227,9 +226,9 @@ ul.navlist > li {
 ul.navlist > li > a {
   display: block;
   text-decoration: none;
-  font-family: 'open sans', sans-serif;
+  font-family: 'Muli', sans-serif;
   color: #FFF;
-  padding: 32px 14px 23px 14px;
+  padding: 27px 14px 27px 18px;
   text-align: center;
   border-bottom: 10px solid transparent;
 }
