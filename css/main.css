@@ -13,7 +13,7 @@ body {
   font-weight: 300;
   font-style: normal;
   line-height: 1.42;
-  background-color: rgb(242, 242, 242);
+  background-color: #FFF;
 }
 
 .g__wrapper {
@@ -98,7 +98,7 @@ h2 {
 }
 
 p {
-    font-family: 'muli';
+    font-family: 'muli', sans-serif;
     font-size: 14px;
 }
 
@@ -236,6 +236,33 @@ ul.navlist > li > a {
 ul.navlist > li > a:hover {
   border-bottom-color: #FFF;
 }
+
+/* Titles */
+
+.border_title {
+    height: 20vh;
+    width: 50%;
+    border: 10px solid #61c19c;
+}
+
+h1.typo {
+    font-size: 4.2em;
+    font-weight: bold;
+    color: #61c19c;
+    padding: 0 0 0 2%;
+}
+
+.slogan {
+    width: 50%;
+    margin-top:-3%;
+    margin-left: 20%;
+    background:white;
+    padding: 0% 1% 0 2%;
+    font-weight: bold;
+    font-size: 1em;
+    color: #61c19c;
+}
+
 
 /* Icons */
 
