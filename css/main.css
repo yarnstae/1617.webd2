@@ -13,7 +13,7 @@ body {
   font-weight: 300;
   font-style: normal;
   line-height: 1.42;
-  background-color: rgb(242, 242, 242);
+  background-color: rgb(255, 255, 255);
 }
 
 .g__wrapper {
@@ -394,6 +394,10 @@ textarea {
 .verzenden {
     float: right;
 }
+
+/* Hero */
+
+
 
 /* Footer */
 
