@@ -223,7 +223,6 @@ ul.navlist {
 }
 
 ul.navlist > li {
-  display: inline;
   float: left;
   clear: right;
   font-weight: lighter;
@@ -264,20 +263,20 @@ p.slogan {
   
 .border-top_title {
   width: 20%;
-  background-color: #61c19c;;
+  background-color: #61c19c;
   height: 1.5vh;
   float: left;
 }
 
 .border-top_title2 {
   width: 20%;
-  background-color: #61c19c;;
+  background-color: #61c19c;
   height: 1.5vh;
   float: right;
 }
 
 .border_title {
-  border: 12px solid #61c19c;;
+  border: 12px solid #61c19c;
   height: 22vh;
   border-top: none;
   width: 50%;
@@ -289,6 +288,41 @@ h1.title2 {
   font-size: 5em;
   font-weight: bold;
   padding: 12% 0 0 3%;
+}
+
+/* title-ons */
+
+.border_title-ons {
+border: 9px solid #61c19c;
+border-top: none;
+  height: 18vh;
+  width: 75%;
+  margin: 33% 0 0 10%;
+}
+
+.border-top_title-ons {
+  width: 20%;
+  height: 1.3vh;
+  float: left;
+}
+
+.border-top_title2-ons {
+  height: 1.2vh;
+  float: right;
+}
+
+h1.title2-ons {
+  font-size: 3em;
+  font-weight: bold;
+  padding: 17% 0 0 3%;
+  color: #61c19c;
+}
+
+/* title-diensten */
+
+.border_title-diensten {
+  margin: 0 0 0 0;
+  padding: 10% 0 0 0;
 }
 
 /* Icons */
@@ -340,9 +374,15 @@ iframe.contact_map {
     background-position: center center;
 }
 
+.g__row-ons {
+    padding-top: 11%;
+}
+
 .g__row-margin {
     margin: 5% 0 10% 0;
 }
+
+
 
 p.alinea {
     color: rgb(255, 255, 255);
