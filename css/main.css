@@ -321,8 +321,22 @@ h1.title2-ons {
 /* title-diensten */
 
 .border_title-diensten {
-  margin: 0 0 0 0;
-  padding: 10% 0 0 0;
+border: 12px solid #61c19c;
+  height: 22vh;
+  border-top: none;
+  width: 50%;
+}
+
+/* titel-portoflio */
+
+.border_title-portfolio {
+  height: 22vh;
+  width: 85%;
+  margin: 0 0 0 5%;
+}
+
+h1.title2-portfolio {
+  padding: 10% 0 0 3%;
 }
 
 /* Icons */
@@ -382,7 +396,9 @@ iframe.contact_map {
     margin: 5% 0 10% 0;
 }
 
-
+.test {
+    margin-top: 15%;
+}
 
 p.alinea {
     color: rgb(255, 255, 255);
