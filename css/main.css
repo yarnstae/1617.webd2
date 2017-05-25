@@ -59,6 +59,7 @@ body {
 .g__column-06 { width: 50%; }
 .g__column-04 { width: 33.3333%; }
 .g__column-03 { width: 25%; }
+.g__column-13 { width: 66.6666%; }
 
 
 
@@ -100,6 +101,7 @@ h2 {
 p {
     font-family: 'muli';
     font-size: 14px;
+    line-height: 1.42;
 }
 
 /* knoppen */
@@ -117,6 +119,10 @@ p {
 }
 .button:hover {
     text-decoration: none;
+}
+
+.button--home {
+    margin: 50% 0 0 35%;
 }
 
 .button--primary,
@@ -207,6 +213,8 @@ p.circle_margin {
   background: -moz-linear-gradient(right, #16243e, #61c19c);
   background: linear-gradient(to right, #16243e, #61c19c);
   margin: 0 auto;
+  position: fixed;
+  z-index:1000;
 }
 
 ul.navlist {
@@ -239,26 +247,49 @@ ul.navlist > li > a:hover {
 
 /* Titles */
 
-.border_title {
-    background-image: url(../img/border_title.png);
-    height: 21vh;
-    margin-top: -6%;
-}
-
 h1.typo {
     font-weight: bold;
     font-size: 4.3em;
     color: #61c19c;
-    padding: 6% 0 0 2%;
+    padding: 0 0 0 2%;
 }
 
 p.slogan {
-    font-weight: bold;
-    font-size: 1.5em;
-    color: #61c19c;
-    padding-left: 8%;
+  font-size: 1.2em;
+  color: #61c19c;
+  font-weight: bold;
+  float: left;
+  margin: -1.5% 0 0 0;
+}
+  
+.border-top_title {
+  width: 20%;
+  background-color: #61c19c;;
+  height: 1.5vh;
+  float: left;
 }
 
+.border-top_title2 {
+  width: 20%;
+  background-color: #61c19c;;
+  height: 1.5vh;
+  float: right;
+}
+
+.border_title {
+  border: 12px solid #61c19c;;
+  height: 22vh;
+  border-top: none;
+  width: 50%;
+  margin: 20% 0 0 22%;
+}
+
+h1.title2 {
+  color: #61c19c;
+  font-size: 5em;
+  font-weight: bold;
+  padding: 12% 0 0 3%;
+}
 
 /* Icons */
 
@@ -278,14 +309,16 @@ h1.icons {
 /* Maps */
 
 iframe.contact_map {
-    width: 100%;
-    height: 286px;
+    width: 105.5%;
+    height: 30vh;
+    margin: 10% 0 0 0;
 }
 
 /* Grid */
 
 .diensten {
     box-shadow: 8px 8px 8px rgba(88, 88, 88, 0.2);
+    margin-bottom: 20%;
 }
 
 .g__column-green {
@@ -298,11 +331,51 @@ iframe.contact_map {
     min-height: 22vw;
 }
 
+.g__column-img {
+    height: 44.3vh;
+    width: 50%;
+    background-repeat: no-repeat;
+    background: url(../img/overons.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.g__row-margin {
+    margin: 5% 0 10% 0;
+}
+
+p.alinea {
+    color: rgb(255, 255, 255);
+    padding: 0 5% 0 5%;
+}
+
+p.alinea-top {
+    padding-top: 3%;
+}
+
+.border_tussentitel {
+    border-top: 6px solid rgb(255, 255, 255);
+    width: 26%;
+    margin: 50% 0 0 5%; 
+}
+
+h1.tussentitel_diensten {
+    font-size: 2.2em;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    margin: 0 0 0 5%;
+}
+
+p.alinea_diensten {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+
 /* Cards */
 
 .team {
   width: 74%;
-  min-height: 21.7vh;
+  min-height: 43vh;
   border: 3px solid #61c19c;
   background-color: #FFF;
   margin: 0 0 0 13%;
@@ -318,14 +391,14 @@ iframe.contact_map {
 
 
 img.circle {
-  border-radius: 50%;
+  border-radius: 50%;  
 }
 
 h2 {
   margin: 4% 0 0 20%;
   text-align: center;
   border-bottom: 2px solid #61c19c;
-  width: 62%;
+  width: 64%;
   color: #61c19c;
 }
 
@@ -345,12 +418,8 @@ p.functie {
 /* forms */
 
 .box {
-  width: 544px;
-  height: 452px;
-  background: #FFF;
-  padding: 0 1em 0 1em;
-  box-shadow: 8px 8px 8px rgba(88, 88, 88, 0.2);
-  margin: 0 auto;
+  width: 48%;
+  height: 57vh;
 }
 
 fieldset {
@@ -373,7 +442,7 @@ fieldset {
 
 .contact-frm input {
     display: block;
-    font-size: 16px;
+    font-size: 1.1em;
     border: none;
     background: none;
     font-family: 'questrial', sans-serif;
@@ -397,13 +466,76 @@ textarea {
 }
 
 .contact_info {
-    height: 452px;
+    height: 57vh;
     background-color: #61c19c;
 }
 
+.contact_margin {
+    margin-bottom: 20%;
+}
+
+.contact_btn {
+    float: left;
+}
+
+.icon_contact {
+    margin-top: 20%;
+}
+
+.contact_para {
+    margin: 5% 0 0 8%;
+}
+
+p.contact_para {
+    color: rgb(255, 255, 255);
+    margin: 1% 0 0 0;
+    font-size: 1.2em;
+    padding-left: 10%;
+}
+
+p.contact_para > span {
+    padding-left: 5%;
+}
+
+p.contact_para > span.huistelefoon {
+    padding-left: 11.8%;
+}
+
+.social_icons {
+    padding: 10% 0 0 5%;
+}
+
+.facebook {
+    padding-left: 8.2%;
+}
+
+a.socialmedia {
+    text-decoration: none;
+}
 /* Hero */
 
+.hero {
+  background: url('../img/home.jpg') no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height:  100vh;
+  position: relative;
+}
 
+.hero_diensten {
+  background: url('../img/diensten.jpg') no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height:  440px;
+  position: relative;
+}
+
+/* portfolio */
+.portfolio {
+width: 100%;
+}
 
 /* Footer */
 
