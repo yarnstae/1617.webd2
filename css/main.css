@@ -310,7 +310,7 @@ border-top: none;
 }
 
 .border-top_title-ons {
-  width: 20%;
+  width: 50%;
   height: 1.3vh;
   float: left;
 }
@@ -318,6 +318,7 @@ border-top: none;
 .border-top_title2-ons {
   height: 1.2vh;
   float: right;
+  width: 45%;
 }
 
 h1.title2-ons {
@@ -345,6 +346,9 @@ border: 12px solid #61c19c;
   width: 85%;
   margin: 0 0 8% 5%;
 }
+
+.nike{float:left;
+width:30%;}
 
 h1.title2-portfolio {
   padding: 10% 0 0 3%;
@@ -679,6 +683,10 @@ backface-visibility: hidden;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%)
+}
+
+.middle-fil {
+    top: 75%;
 }
 
 /* Footer */
