@@ -738,6 +738,11 @@ p.footer__telefoon {
 
 picture.socialmedia_btn {
     margin-right: 6%;
+    opacity: 0.75;
+}
+
+picture.socialmedia_btn:hover {
+    opacity: 1;
 }
 
 picture.footer_contact_btn {
