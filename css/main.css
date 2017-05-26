@@ -161,6 +161,7 @@ p {
 .button--tertiary:visited {
     color: #FFF;
     border: 3px solid #FFF;
+    margin: 3% 0 3% 40%;
 }
 
 .button--tertiary:hover {
@@ -619,7 +620,7 @@ div.social {
   background-size: cover;
   background-position: center center;
   width: 100%;
-  height:  100vh;
+  height:  85vh;
   position: relative;
 }
 
@@ -765,9 +766,47 @@ iframe.footer_map {
 
 .home_diensten {
     height: 40vh;
-    margin: 5% 0 5% 0;
+    margin: 0 0 5% 0;
+    color: rgb(255, 255, 255);
+    background-color: #61c19c;
+    border-color: rgb(255, 255, 255);
+}
+
+.home_diensten:hover {
+    background-color: rgb(255, 255, 255);
+    color: #61c19c;
+    border-color: #61c19c;
+    transition: .5s ease;
 }
 
 .home_diensten-border {
-    border-left: 2px solid #61c19c;
+    border-left: 2px solid rgb(255, 255, 255);
+}
+
+.home-titel {
+    font-size: 2em;
+    font-weight: bold;
+    border-top: 5px solid;
+}
+
+.home-titel-projecten {
+    border: none;
+    color: #61c19c;
+    margin-top: 10%;
+}
+
+p.quote {
+    font-size: 1.4em;
+    font-style: italic;
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
+    color: rgb(255, 255, 255);
+    padding-top: 3%;
+}
+
+.g__column-home-green {
+    background-color: #61c19c;
+    min-height: 24vh;
+    margin: 10% 0 10% 0;
 }
