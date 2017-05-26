@@ -122,7 +122,11 @@ p {
 }
 
 .button--home {
-    margin: 50% 0 0 35%;
+    margin: 15% 0 0 62%;
+}
+
+.button--home2 {
+    margin: 15% 0 0 0%;
 }
 
 .button--primary,
@@ -239,6 +243,7 @@ ul.navlist > li > a {
   text-align: center;
   border-bottom: 10px solid transparent;
 }
+
 
 ul.navlist > li > a:hover {
   border-bottom-color: #FFF;
@@ -435,6 +440,8 @@ iframe.contact_map {
 p.alinea {
     color: rgb(255, 255, 255);
     padding: 0 5% 0 5%;
+    line-height: 1.7;
+    font-size: 1.1em;
 }
 
 p.alinea-top {
@@ -629,6 +636,36 @@ div.social {
 
 .portfolio {
 width: 100%;
+height: auto;
+transition: .5s ease;
+backface-visibility: hidden;
+}
+
+.portfolio_hover:hover .portfolio {
+  opacity: 0.3;
+}
+
+.portfolio_hover:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #61c19c;
+  color: white;
+  font-size: 1em;
+  padding: 12px 20px;
+  font-family: 'muli';
+  font-weight: bold;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
 }
 
 /* Footer */
@@ -718,4 +755,19 @@ p.footer__telefoon > span.telefoon {
 iframe.footer_map {
     width: 262px;
     height: 85px;
+}
+
+.margin_bottom {
+    margin-bottom: 5%;
+}
+
+/* Home */ 
+
+.home_diensten {
+    height: 40vh;
+    margin: 5% 0 5% 0;
+}
+
+.home_diensten-border {
+    border-left: 2px solid #61c19c;
 }
