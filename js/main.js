@@ -1,3 +1,3 @@
 ;(function() {
-  alert('Welcome to the GDM Web Template developed by drdynscript!');
+  alert('Welcome to Aspire Graphic Agency developed by Yarne Staelens!');
 })();
