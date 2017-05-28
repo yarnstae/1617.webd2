@@ -171,6 +171,31 @@ p {
     border: 3px solid #FFF;
 }
 
+.button--tertiary2,
+.button--tertiary2:active,
+.button--tertiary2:visited {
+    color: #16243e;
+    border: 3px solid #16243e;
+}
+
+.button--tertiary2:hover {
+    background-color: #16243e;
+    color: rgb(255, 255, 255);
+}
+
+.button--quarternary,
+.button--quarternary:active,
+.button--quarternary:visited {
+    background-color: #61c19c;
+    color: rgb(255, 255, 255);
+    border: 3px solid #61c19c;
+}
+
+.button--quarternary:hover {
+    color: #61c19c;
+    border: 3px solid #61c19c;
+    background-color: rgb(255, 255, 255);
+}
 
 /* colors */
 
@@ -221,7 +246,21 @@ p.circle_margin {
   margin: 0 auto;
   position: fixed;
   z-index:1000;
-  padding-left: 19%;
+  padding-left: 14%;
+}
+
+#links_styleguide {
+    overflow: auto;
+  width: 100%;
+  background: #61c19c;
+  background: -webkit-linear-gradient(left, #16243e, #61c19c);
+  background: -o-linear-gradient(right, #16243e, #61c19c);
+  background: -moz-linear-gradient(right, #16243e, #61c19c);
+  background: linear-gradient(to right, #16243e, #61c19c);
+  margin: 0 auto;
+  z-index:1000;
+  padding-left: 14%;
+    
 }
 
 ul.navlist {
@@ -258,6 +297,22 @@ h1.typo {
     font-size: 4.3em;
     color: #61c19c;
     padding: 0 0 0 2%;
+}
+
+h1.styleguide {
+    font-weight: bold;
+    font-size: 2em;
+    color: #61c19c;
+}
+
+h2.styleguide {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #61c19c;
+    border: none;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    text-align: left;
 }
 
 p.slogan {
@@ -298,6 +353,10 @@ h1.title2 {
   font-size: 5em;
   font-weight: bold;
   padding: 10% 0 0 3%;
+}
+
+.margin_auto {
+    margin: 0 0 0 25%;
 }
 
 /* title-ons */
